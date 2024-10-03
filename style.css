@@ -14,10 +14,9 @@ body {
 .container {
   width: 1160px;
   height: 528px;
-  top: 276px;
-  left: 380px;
   display: flex;
-  position: relative;
+ justify-content: center;
+ align-items: center;
 }
 .container div {
   width: 360px;
@@ -58,7 +57,6 @@ body {
   line-height: 25px;
   text-align: left;
   z-index: 1;
-  
 }
 
 .icone_card {
@@ -78,95 +76,90 @@ body {
   left: 312px;
   z-index: 1;
 }
-.paragraph{
-    position: absolute;
-top: 297px;
-left: 24px;
-font-size: 16px;
-line-height: 25px;
-text-align: left;
-color: #6E798C;
-z-index: 1;
+.paragraph {
+  position: absolute;
+  top: 297px;
+  left: 24px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+  color: #6e798c;
+  z-index: 1;
 }
 
-.span_div{
-color: #A5ADBB;
-font-size: 16px;
-line-height: 25px;
+.span_div {
+  color: #a5adbb;
+  font-size: 16px;
+  line-height: 25px;
 }
 
-.span1{
-position: absolute;
-top: 396px;
-left: 24px;
-z-index: 1;
+.span1 {
+  position: absolute;
+  top: 396px;
+  left: 24px;
+  z-index: 1;
 }
-.span2{
-position: absolute;
-top: 396px;
-left: 123px;
-z-index: 1;
-}
-
-.span3{
- position: absolute;
-top: 396px;
-left: 283px;
-z-index: 1;
-}
-.pay{
-    position: absolute;
-top: 462px;
-left: 24px;
-font-size: 28px;
-line-height: 25px;
-text-align: left;
-color: #081F32;
-
+.span2 {
+  position: absolute;
+  top: 396px;
+  left: 123px;
+  z-index: 1;
 }
 
-.old_pay{
-    position: absolute;
-    top: 462px;
-    left: 120px;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: left;
-    color: #F8593B;
-    text-decoration: line-through;
-    
+.span3 {
+  position: absolute;
+  top: 396px;
+  left: 283px;
+  z-index: 1;
 }
-.ORDER{
-    position: absolute;
-top: 454px;
-left: 222px;
-background-color:#2ECC71;
-border: none;
-color: #FFFFFF;
-font-size: 14px;
-font-weight: 700;
-line-height: 25px;
-letter-spacing: 0.18em;
-text-align: center;
-width: 114px;
-height: 44px;
-border-radius: 4px;
+.pay {
+  position: absolute;
+  top: 462px;
+  left: 24px;
+  font-size: 28px;
+  line-height: 25px;
+  text-align: left;
+  color: #081f32;
+}
 
-
-
+.old_pay {
+  position: absolute;
+  top: 462px;
+  left: 120px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+  color: #f8593b;
+  text-decoration: line-through;
+}
+.ORDER {
+  position: absolute;
+  top: 454px;
+  left: 222px;
+  background-color: #2ecc71;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.18em;
+  text-align: center;
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
 }
 
 .Tortellini {
   top: 276px;
   left: 780px;
 }
-.Organic{
-    background-image: url(./images/Organic\ Icon.png);
-    background-repeat: no-repeat;
+.Organic {
+  background-image: url(./images/Organic\ Icon.png);
+  background-repeat: no-repeat;
   position: absolute;
   height: 24px;
   top: 250px;
-  left: 246px; 
+  left: 246px;
   z-index: 1;
 }
 .Strawberry_Cake {
