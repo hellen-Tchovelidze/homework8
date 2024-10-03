@@ -12,8 +12,6 @@ body {
 }
 
 .container {
-  width: 1160px;
-  height: 528px;
   display: flex;
  justify-content: center;
  align-items: center;
@@ -27,8 +25,8 @@ body {
 }
 
 .pizza {
-  top: 276px;
-  left: 380px;
+  top: 120px;
+  left: 150px;
 }
 
 .photo {
@@ -150,8 +148,8 @@ body {
 }
 
 .Tortellini {
-  top: 276px;
-  left: 780px;
+  top: 120px;
+  left: 550px;
 }
 .Organic {
   background-image: url(./images/Organic\ Icon.png);
@@ -163,6 +161,6 @@ body {
   z-index: 1;
 }
 .Strawberry_Cake {
-  top: 276px;
-  left: 1180px;
+  top: 120px;
+  left: 950px;
 }
